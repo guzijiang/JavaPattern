@@ -14,6 +14,7 @@ public class Pattern4 {
     // 装饰者 不改变接口，但加入责任
     // 适配器 将一个接口转换成另一个接口
     // 外观模式 让接口更简单
+    // todo
     public static void main(String[] args) {
         WildTurkey turkey = new WildTurkey();
         Duck turkeyAdapter = new TurkeyAdapter(turkey);
