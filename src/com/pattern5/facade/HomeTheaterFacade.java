@@ -1,4 +1,4 @@
-package com.pattern4.turkey.facade;
+package com.pattern5.facade;
 
 public class HomeTheaterFacade {
     CeilingFan ceilingFan;
