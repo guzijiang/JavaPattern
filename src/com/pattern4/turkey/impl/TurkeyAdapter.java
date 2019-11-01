@@ -1,6 +1,6 @@
-package com.pattern4.Turkey.impl;
+package com.pattern4.turkey.impl;
 
-import com.pattern4.Turkey.Turkey;
+import com.pattern4.turkey.Turkey;
 
 public class TurkeyAdapter implements Duck {
     Turkey turkey;

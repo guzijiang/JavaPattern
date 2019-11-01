@@ -1,4 +1,4 @@
-package com.pattern4.Turkey;
+package com.pattern4.turkey;
 
 public interface Turkey {
     public void gobble();
