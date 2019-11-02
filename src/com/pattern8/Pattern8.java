@@ -7,7 +7,7 @@ public class Pattern8 {
 
     // 命令模式 把方法调用(method invocation)封装起来
     // 命令模式 把"请求"封装成对象，以便使用不同的请求，队列或者日志来参数化其它对象
-    // 命令模式的更多用途： 队列请求(日程安排，线程池，工作队列)，日志请求(系统死机，将命令对象重新加载，依次调用对象的execute)
+    // 命令模式的更多用途: 队列请求(日程安排，线程池，工作队列)，日志请求(系统死机，将命令对象重新加载，依次调用对象的execute)
     public static void main(String[] args) {
 //        SimpleRemoteControl remote = new SimpleRemoteControl();
 //        LightOnCommand lightOn = new LightOnCommand(new Light());

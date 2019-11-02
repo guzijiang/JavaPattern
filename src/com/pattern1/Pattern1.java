@@ -12,6 +12,7 @@ public class Pattern1 {
     // 多用组合 少用继承
 
     // 抽象 封装 继承 多态
+
     // 策略模式 定义了算法族 分别封装起来 可以相互之间替换
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
