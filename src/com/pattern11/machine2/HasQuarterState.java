@@ -21,7 +21,9 @@ public class HasQuarterState implements State {
     @Override
     public void turnCrank() {
         System.out.println("turnCrank done --- ");
-        machine.setState(machine.getSoldState());
+//        machine.setState(machine.getSoldState());
+        machine.setState(machine.getWinnerState());
+        machine.dispense();
     }
 
     @Override

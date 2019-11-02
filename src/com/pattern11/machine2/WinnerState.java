@@ -25,6 +25,19 @@ public class WinnerState implements State {
     @Override
     public void dispense() {
         System.out.println("---------dispense twice---------");
+        machine.releaseBall();
+        if (machine.getCount() < 1) {
+            System.out.println("sold out --- ");
+            machine.setState(machine.getSoldOutState());
+        } else {
+            machine.releaseBall();
+            if (machine.getCount() < 1) {
+                System.out.println("sold out --- ");
+                machine.setState(machine.getSoldOutState());
+            } else {
+                machine.setState(machine.getNoQuarterState());
+            }
+        }
 
     }
 }
