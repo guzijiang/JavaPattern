@@ -14,7 +14,7 @@ public class Pattern14 {
     //原型模式(Prototype Pattern) 当创建给定类的实例的过程很昂贵或很复杂时
 
     //桥接模式(Bridge Pattern) 不只改变你的实现，也改变你的抽象
-    
+
     //解释器模式
     //备忘录模式
     //访问者模式

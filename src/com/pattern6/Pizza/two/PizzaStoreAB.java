@@ -1,7 +1,7 @@
 package com.pattern6.Pizza.two;
 
 public abstract class PizzaStoreAB {
-    public PizzaAB orderPizza(String type) {
+    public void orderPizza(String type) {
         PizzaAB pizza = createPizza(type);
 
         pizza.prepare();
@@ -9,7 +9,6 @@ public abstract class PizzaStoreAB {
         pizza.cut();
         pizza.box();
 
-        return pizza;
     }
 
     public abstract PizzaAB createPizza(String type);
